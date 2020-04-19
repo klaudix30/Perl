@@ -3,6 +3,7 @@
 #Klaudia Gołębiewska grupa 31A
 #Lab02
 #gk14366@zut.edu.pl
+#program konczy sie wygenerowaniem pliku csv w bieżącym katalogu
 use DateTime;
 use POSIX;
 sub checkParameters{

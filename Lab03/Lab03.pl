@@ -2,6 +2,7 @@
 #Klaudia Gołębiewska grupa 31A
 #Lab03
 #gk14366@zut.edu.pl
+#program konczy sie wygenerowaniem pliku csv w bieżącym katalogu
 use utf8;
 
 sub checkParameters {

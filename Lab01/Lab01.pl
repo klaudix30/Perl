@@ -37,7 +37,7 @@ sub searchFiles{
         }
 
         if(defined $parOwner){
-                   $uid = (stat $file)[4];
+                   $uid = (stat "$cat/$file")[4];
                    $user = (getpwuid $uid)[0];
                 print("$user ");
          }

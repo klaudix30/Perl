@@ -88,7 +88,7 @@ sub getLong {
   @words = split //, $right;
   $changedRights = changeRights($_[0], @words);
   $date = sprintf("%d-%02d-%02d %02d:%02d:%02d", $year + 1900, $mon+1, $mday, $hour, $min, $sec);
-  $allLong = sprintf("%-30.30s %-10.10s %-30.30s %-11.11s \n", $_[0], (stat "$cat/$_[0]")[7], $date, $changedRights);
+  $allLong = sprintf("%-30.30s %-10.10s %-20.30s %-11.11s \n", $_[0], (stat "$cat/$_[0]")[7], $date, $changedRights);
   printf($allLong);
 
 }
